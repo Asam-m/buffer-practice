@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GameHub</title>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+    <meta name="Discription" content="Universe of Games" />
+    <style>
+      body {
+        background-color: #f3f3f3;
+      }
+      .headerdiv {
+        display: flex;
+        flex-direction: row;
+        background-color: #f3f3f3;
+        border: solid #ecebeb;
+        box-shadow: 0.9px 0.9px 0.9px 0.9px;
+        border-radius: 50px;
+        min-height: 220.74px;
+        min-width: 1919px;
+        float: left;
+        width: 99.3%;
+        margin-left: 0.2%;
+      }
+      #maindiv {
+        background-color: black;
+        min-height: 782px;
+        min-width: 1995px;
+        width: 100%;
+      }
+      .footerdiv {
+        display: flex;
+        width: 100%;
+
+        background-color: yellow;
+      }
+      .footerdiv > div {
+        padding: 10;
+        margin: 30px;
+        font-size: 30px;
+        background-color: blue;
+      }
+      #logo {
+        margin-top: 20px;
+        width: 217.44px;
+        height: 136.89px;
+        transform: rotate(-20deg);
+      }
+      #nav {
+        list-style-type: none;
+      }
+      #nav li {
+        float: left;
+        margin-top: 100px;
+        margin-left: 70px;
+        font-size: 40px;
+      }
+      #search {
+        width: 181px;
+        height: 31.24px;
+      }
+      #searchdiv {
+        align-self: flex-end;
+        margin-bottom: 50px;
+        margin-left: 37%;
+      }
+      #button {
+        width: 186px;
+        height: 80px;
+        background-color: #f3f3f3;
+        border: 1px solid #707070;
+        border-radius: 15%;
+        font-size: 25px;
+        margin-top: 105px;
+        margin-left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="headerdiv">
+        <div><img src="GameHub_Logo.png" id="logo" /></div>
+        <div>
+          <ul id="nav">
+            <li>Home</li>
+            <li>Games</li>
+            <li>About</li>
+          </ul>
+        </div>
+        <div id="searchdiv">
+          <input type="text" id="search" />
+        </div>
+        <div><button id="button">Signup</button></div>
+      </div>
+    </header>
+    <main>
+      <div id="maindiv"></div>
+    </main>
+  </body>
+  <footer>
+    <div id="footerdiv">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+  </footer>
+</html>
