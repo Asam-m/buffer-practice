@@ -6,7 +6,7 @@
     <meta name="Discription" content="Universe of Games" />
     <style>
       body {
-        background-color: #f3f3f3;
+        background-color: #f3f3f3;0
       }
       .headerdiv {
         display: flex;
@@ -42,6 +42,9 @@
       #footerdiv > div {
         margin: auto;
         font-size: 30px;
+        margin-right: 20px;
+
+
       }
       #logo {
         margin-top: 20px;
@@ -183,6 +186,29 @@
         padding: 0.4em 0 0.4em 0.6em;
         width: 183px;
       }
+      #featuredgames {
+        text-align: center;
+        position: relative;
+        top: 115px;
+        font-family: Montserrat light;
+        font-size: 40px;
+      }
+      #navigatoricon{
+        list-style-type:none ;
+        margin-top: 215px;
+        }
+        #designicon{
+          height:60px;
+          display: inline;
+        }
+        #ikon{
+          display: inline;
+        }
+        @media only screen and (max-width: 2000px){
+          .headerdiv{
+            border:solid #386dff;
+          }
+        }
     </style>
   </head>
   <body>
@@ -228,6 +254,7 @@
       </div>
     </main>
   </body>
+  <h1 id="featuredgames">Featured Games</h1>
   <footer>
     <div id="footerdiv">
       <div>
@@ -239,6 +266,11 @@
       <div><img src="Projects wallpaper/8tu0y5.jpg" id="mafia" /></div>
       <div><img src="Projects wallpaper/unnamed.jpg" id="assasin" /></div>
       <div><img src="Projects wallpaper/Ace Combat 7.jpg" id="Ace" /></div>
+      <ul class="ikon">
+        <li id="navigatoricon">
+          <img src="navigate_next-24px.svg" id="designicon" />
+        </li>
+      </ul>
     </div>
   </footer>
 </html>
